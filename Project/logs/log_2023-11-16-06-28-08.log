@@ -1,0 +1,9 @@
+[INFO] 2023-11-16 06:28:11,169 Utils.LoggerHandler openBrowser - Browser Launched
+[INFO] 2023-11-16 06:28:11,190 Utils.LoggerHandler openBrowser - Browser Loaded the URL
+[INFO] 2023-11-16 06:28:14,705 StepDefinition.Homepage i_am_on_ELC_Website - This is info message
+[WARN] 2023-11-16 06:28:14,705 StepDefinition.Homepage i_am_on_ELC_Website - This is warining message
+[ERROR] 2023-11-16 06:28:14,706 StepDefinition.Homepage i_am_on_ELC_Website - This is error message
+[FATAL] 2023-11-16 06:28:14,706 StepDefinition.Homepage i_am_on_ELC_Website - This is fatal message
+[INFO] 2023-11-16 06:31:36,199 Utils.LoggerHandler openBrowser - Browser Launched
+[INFO] 2023-11-16 06:31:36,213 Utils.LoggerHandler openBrowser - Browser Loaded the URL
+[INFO] 2023-11-16 06:31:39,634 Utils.LoggerHandler openBrowser - Browser Launched

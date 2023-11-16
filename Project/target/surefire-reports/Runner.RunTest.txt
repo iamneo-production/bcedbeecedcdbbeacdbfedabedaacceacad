@@ -1,76 +1,102 @@
 -------------------------------------------------------------------------------
 Test set: Runner.RunTest
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 6, Skipped: 2, Time elapsed: 33.288 s <<< FAILURE! - in Runner.RunTest
-And I scroll down until I locate the "Price" option on the left side of the page(Scenario: Filter products by price range)  Time elapsed: 0.009 s  <<< ERROR!
+Tests run: 20, Failures: 0, Errors: 8, Skipped: 9, Time elapsed: 212.24 s <<< FAILURE! - in Runner.RunTest
+And I click on the first option from the auto-populated list(Scenario: Search for a product)  Time elapsed: 0.002 s  <<< ERROR!
 org.openqa.selenium.NoSuchSessionException: 
-Unable to find session with ID: a2d3e15e73a9d174cb4780375155df4a
+Unable to find session with ID: e637597b9167a4a1d07137beb97243a4
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
 Driver info: driver.version: unknown
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [a2d3e15e73a9d174cb4780375155df4a, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a2d3e15e73a9d174cb4780375155df4a
+Command: [e637597b9167a4a1d07137beb97243a4, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e637597b9167a4a1d07137beb97243a4
 
-Scenario: Filter products by price range  Time elapsed: 0.009 s  <<< ERROR!
+Scenario: Search for a product  Time elapsed: 0.003 s  <<< ERROR!
 org.openqa.selenium.NoSuchSessionException: 
-Unable to find session with ID: a2d3e15e73a9d174cb4780375155df4a
+Unable to find session with ID: e637597b9167a4a1d07137beb97243a4
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
 Driver info: driver.version: unknown
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [a2d3e15e73a9d174cb4780375155df4a, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a2d3e15e73a9d174cb4780375155df4a
+Command: [e637597b9167a4a1d07137beb97243a4, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e637597b9167a4a1d07137beb97243a4
 
-Scenario: Filter products by price range  Time elapsed: 0.039 s  <<< ERROR!
+Scenario: Search for a product  Time elapsed: 0.013 s  <<< ERROR!
 org.openqa.selenium.NoSuchSessionException: 
-Unable to find session with ID: a2d3e15e73a9d174cb4780375155df4a
+Unable to find session with ID: e637597b9167a4a1d07137beb97243a4
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
 Driver info: driver.version: unknown
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [a2d3e15e73a9d174cb4780375155df4a, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a2d3e15e73a9d174cb4780375155df4a
+Command: [e637597b9167a4a1d07137beb97243a4, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e637597b9167a4a1d07137beb97243a4
 
-Then I verify whether the name of the chosen brand is available on the page(Scenario: Filter products by brand in "Offers" > "Wooden Toys")  Time elapsed: 0.001 s  <<< ERROR!
+When I hover the mouse over the "Shop by age" menu and click the "0-3 months" category(Scenario: Filter products by price range)  Time elapsed: 0.002 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Unable to find session with ID: c5acae56ead13031816a9e4623874a6f
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
+Driver info: driver.version: unknown
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c5acae56ead13031816a9e4623874a6f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5acae56ead13031816a9e4623874a6f
+
+Scenario: Filter products by price range  Time elapsed: 0.012 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Unable to find session with ID: c5acae56ead13031816a9e4623874a6f
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
+Driver info: driver.version: unknown
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c5acae56ead13031816a9e4623874a6f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5acae56ead13031816a9e4623874a6f
+
+Scenario: Filter products by price range  Time elapsed: 0.035 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Unable to find session with ID: c5acae56ead13031816a9e4623874a6f
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
+Driver info: driver.version: unknown
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c5acae56ead13031816a9e4623874a6f, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5acae56ead13031816a9e4623874a6f
+
+Given I am on ELC Application for click(Scenario: Filter products by brand in "Offers" > "Wooden Toys")  Time elapsed: 0.003 s  <<< ERROR!
 org.openqa.selenium.NoSuchSessionException: 
 invalid session id
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [90cbe27e0ea65c864d18d00486e4e461, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90cbe27e0ea65c864d18d00486e4e461
+Command: [71461db094d4bf8d03c41a1266a22899, setTimeout {implicit=10000}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71461db094d4bf8d03c41a1266a22899
 
-Scenario: Filter products by brand in "Offers" > "Wooden Toys"  Time elapsed: 0.019 s  <<< ERROR!
+Scenario: Filter products by brand in "Offers" > "Wooden Toys"  Time elapsed: 0.004 s  <<< ERROR!
 org.openqa.selenium.NoSuchSessionException: 
 invalid session id
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [90cbe27e0ea65c864d18d00486e4e461, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90cbe27e0ea65c864d18d00486e4e461
-
-Scenario: Filter products by brand in "Offers" > "Wooden Toys"  Time elapsed: 0.055 s  <<< ERROR!
-org.openqa.selenium.NoSuchSessionException: 
-Unable to find session with ID: 90cbe27e0ea65c864d18d00486e4e461
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
-Driver info: driver.version: unknown
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [90cbe27e0ea65c864d18d00486e4e461, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 90cbe27e0ea65c864d18d00486e4e461
+Command: [71461db094d4bf8d03c41a1266a22899, setTimeout {implicit=10000}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71461db094d4bf8d03c41a1266a22899
 

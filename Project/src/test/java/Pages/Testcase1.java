@@ -16,7 +16,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import cucumber.api.PendingException;
-import java.util.
+import java.util.*;
 import Utils.*;
 import UiStore.*;
 
@@ -50,6 +50,11 @@ public class Testcase1 {
    
     public void SelectFromList() {
         try {
+            try {
+                Thread.sleep(200000);
+            } catch (Exception e) {
+                
+            }
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
             wait.until(ExpectedConditions.jsReturnsValue("return document.readyState === 'complete';"));
@@ -67,12 +72,6 @@ public class Testcase1 {
   
     public void CompareValue(String Expected_Label) throws Throwable {
         try {
-            try {
-                Thread.sleep(300000);
-            } catch (Exception e) {
-                
-            }
-            
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
             WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h1[contains(text(),'Peppa Pig: Peppa\u2019s Adventures - Peppa\u2019s Family Mot')]")));
             String labelText = element.getText();
