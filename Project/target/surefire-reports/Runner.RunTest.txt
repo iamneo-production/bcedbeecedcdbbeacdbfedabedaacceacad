@@ -1,4 +1,76 @@
 -------------------------------------------------------------------------------
 Test set: Runner.RunTest
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.528 s - in Runner.RunTest
+Tests run: 20, Failures: 0, Errors: 6, Skipped: 2, Time elapsed: 33.288 s <<< FAILURE! - in Runner.RunTest
+And I scroll down until I locate the "Price" option on the left side of the page(Scenario: Filter products by price range)  Time elapsed: 0.009 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Unable to find session with ID: a2d3e15e73a9d174cb4780375155df4a
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
+Driver info: driver.version: unknown
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a2d3e15e73a9d174cb4780375155df4a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2d3e15e73a9d174cb4780375155df4a
+
+Scenario: Filter products by price range  Time elapsed: 0.009 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Unable to find session with ID: a2d3e15e73a9d174cb4780375155df4a
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
+Driver info: driver.version: unknown
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a2d3e15e73a9d174cb4780375155df4a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2d3e15e73a9d174cb4780375155df4a
+
+Scenario: Filter products by price range  Time elapsed: 0.039 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Unable to find session with ID: a2d3e15e73a9d174cb4780375155df4a
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
+Driver info: driver.version: unknown
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a2d3e15e73a9d174cb4780375155df4a, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40393}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2d3e15e73a9d174cb4780375155df4a
+
+Then I verify whether the name of the chosen brand is available on the page(Scenario: Filter products by brand in "Offers" > "Wooden Toys")  Time elapsed: 0.001 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [90cbe27e0ea65c864d18d00486e4e461, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90cbe27e0ea65c864d18d00486e4e461
+
+Scenario: Filter products by brand in "Offers" > "Wooden Toys"  Time elapsed: 0.019 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [90cbe27e0ea65c864d18d00486e4e461, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90cbe27e0ea65c864d18d00486e4e461
+
+Scenario: Filter products by brand in "Offers" > "Wooden Toys"  Time elapsed: 0.055 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Unable to find session with ID: 90cbe27e0ea65c864d18d00486e4e461
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20.1'
+Driver info: driver.version: unknown
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [90cbe27e0ea65c864d18d00486e4e461, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.123, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42445}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.81.11.3:4444/sessio..., se:cdpVersion: 119.0.6045.123, se:vnc: ws://10.81.11.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://10.81.11.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90cbe27e0ea65c864d18d00486e4e461
+
